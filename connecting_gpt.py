@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 
 # Load API Key
 load_dotenv()
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY") or "AIzaSyCloxpP8WSctlraKQEhAxQi0kjARxzRDbo"  # fallback if .env is missing
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")   # fallback if .env is missing
 
 # Google Gemini API - Updated model name
 API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={GEMINI_API_KEY}"
