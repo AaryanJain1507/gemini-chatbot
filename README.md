@@ -15,9 +15,6 @@ chatbot/
 ├── llm_env/ # Local Python virtual environment (ignored)
 └── README.md # Project documentation
 
-yaml
-Copy
-Edit
 
 ---
 
@@ -29,33 +26,24 @@ Edit
 
 Install dependencies using:
 
-```bash
 pip install -r requirements.txt
 Or manually:
 
-bash
-Copy
-Edit
+
 pip install requests python-dotenv
 🔐 Setup: Environment Variables
 Create a .env file in the same directory with your Google API key:
 
-ini
-Copy
-Edit
+
 GEMINI_API_KEY=your_google_gemini_api_key_here
 Note: Your key is safe because .env is excluded via .gitignore.
 
 🚀 How to Run
-bash
-Copy
-Edit
+
 python connecting_gpt.py
 You will be prompted to choose:
 
-yaml
-Copy
-Edit
+
 Choose Mode:
 1. No Memory Chat
 2. Memory Chat
@@ -77,12 +65,3 @@ This project is for educational purposes. Review Google's Generative Language AP
 
 🙋‍♂️ Author
 Aaryan Jain
-GitHub Profile
-
-yaml
-Copy
-Edit
-
----
-
-Let me know when you’re ready for a `requirements.txt` or `.gitignore` too.
